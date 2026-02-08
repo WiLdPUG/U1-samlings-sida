@@ -1,0 +1,47 @@
+/* assignment1.css - Specifik styling för uppgift 1 */
+
+.assignment-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.assignment-content h2 {
+    color: #2c3e50;
+    border-bottom: 3px solid #3498db;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.assignment-content h3 {
+    color: #34495e;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.assignment-content ul {
+    margin-left: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.assignment-content li {
+    margin: 0.5rem 0;
+}
+
+.back-link {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.back-link:hover {
+    background-color: #2980b9;
+}
