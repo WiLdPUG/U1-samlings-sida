@@ -1,6 +1,6 @@
 1ME323 – Inlämningsuppgifter
 
-Detta repository innehåller mina inlämningsuppgifter för kursen Webbteknik 3 (1ME323).
+Detta repository innehåller mina inlämningsuppgifter för Webbteknik 3 (1ME323).
 
 Webbplatsen publiceras via GitHub 
 
