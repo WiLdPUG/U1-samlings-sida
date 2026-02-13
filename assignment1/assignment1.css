@@ -1,5 +1,3 @@
-/* assignment1.css - Specifik styling för uppgift 1 */
-
 .assignment-content {
     max-width: 800px;
     margin: 0 auto;
@@ -44,4 +42,5 @@
 
 .back-link:hover {
     background-color: #2980b9;
+
 }
