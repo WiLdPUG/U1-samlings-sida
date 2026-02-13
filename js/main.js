@@ -1,4 +1,3 @@
-// js/main.js
 import { assignments } from "./assignments.js";
 import { createNavigation } from "./globalnav.js";
 
@@ -49,7 +48,6 @@ function backHome(path) {
   main.appendChild(back);
 }
 
-// --- Init ---
 const page = document.body.dataset.page || "home";
 const path = page === "home" ? "" : "../";
 
