@@ -8,7 +8,7 @@ Webbplatsen publiceras via GitHub
 
  `index.html` – landningssida med global navigation och “kort” till varje uppgift
  `assignment1/` – Uppgift 1
- `js/` – gemensam JavaScript-kod (moduler)
+ `js/` – gemensam JavaScript-kod 
 `global.css` – gemensam styling
 
 
