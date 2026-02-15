@@ -1,0 +1,192 @@
+body {
+  background:
+    radial-gradient(900px 600px at 10% 0%, rgba(202, 162, 77, 0.18), transparent 55%),
+    radial-gradient(900px 600px at 95% 15%, rgba(15, 118, 110, 0.12), transparent 55%),
+    repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.012),
+      rgba(0, 0, 0, 0.012) 10px,
+      rgba(255, 255, 255, 0.02) 10px,
+      rgba(255, 255, 255, 0.02) 20px
+    ),
+    linear-gradient(#eea322, #e7c07c);
+  color: #1f1f1f;
+}
+
+
+.produkt-grid-container {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.produkt-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  flex: 3;
+}
+
+.productsCard {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.productsCard img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.productsCard h3 {
+  margin: 0 0 0.4rem 0;
+  font-size: 1.2rem;
+}
+
+.productsCard .beskrivning {
+  color: #555;
+  font-size: 0.9rem;
+  margin: 0 0 0.8rem 0;
+  line-height: 1.4;
+}
+
+.productsCard .pris {
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin: 0 0 0.8rem 0;
+  color: #2c3e50;
+}
+
+.productsCard .kategori {
+  background: #f0f0f0;
+  padding: 0.2rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  display: inline-block;
+  align-self: flex-start;
+  margin-bottom: 0.8rem;
+  color: #555;
+}
+
+.lägg-till-knapp {
+  background: #27ae60;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 0.6rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: auto;
+  transition: background 0.2s;
+}
+
+.lägg-till-knapp:hover {
+  background: #219653;
+}
+
+
+.kundvagn-sidebar {
+  flex: 1;
+  background: white;
+  border-radius: 10px;
+  padding: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 1rem;
+}
+
+.kundvagn-sidebar h2 {
+  margin-top: 0;
+  font-size: 1.3rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.6rem;
+}
+
+#kundvagn-innehåll {
+  min-height: 100px;
+  margin-bottom: 1rem;
+}
+
+.kundvagn-produkt {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.kundvagn-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.kundvagn-namn {
+  font-weight: 500;
+  margin-bottom: 0.2rem;
+}
+
+.kundvagn-pris {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.kundvagn-antal {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.antal-knapp {
+  background: #eee;
+  border: none;
+  width: 26px;
+  height: 26px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.antal-knapp:hover {
+  background: #ddd;
+}
+
+#tom-kundvagn {
+  color: #999;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+#kundvagn-footer {
+  border-top: 2px solid #eee;
+  padding-top: 1rem;
+  margin-top: 0.5rem;
+}
+
+#total-summa {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #2c3e50;
+}
+
+#tom-kundvagn-knapp {
+  width: 100%;
+  margin-top: 0.8rem;
+  background-color: #c0392b;
+  border: none;
+  color: white;
+  padding: 0.7rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.95rem;
+}
+
+#tom-kundvagn-knapp:hover {
+  background-color: #a93226;
+}
