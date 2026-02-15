@@ -10,6 +10,11 @@ export const assignments = [
     title: "Uppgift 1: Samlingssida",
     link: "assignment1/index.html",
     description: "Bygga landningssidan med dynamisk navigation och uppgiftskort"
+  },
+  {
+    id: "assignment2",
+    title: "Uppgift 2: Vietnamesiskt kök",
+    link: "assignment2/index.html",
+    description: "Produktsida med kundvagn"
   }
-  // Lägger till fler uppgifter under kursen gång! 
 ];
