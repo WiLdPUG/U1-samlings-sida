@@ -1,10 +1,4 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 2rem;
-  background: linear-gradient(180deg, #fff8f2 0%, #ffe9d6 100%);
-  color: #2b1b12;
-}
+
 
 #title {
   margin-bottom: 2rem;
@@ -13,7 +7,6 @@ body {
   color: #8b2e1f;
 }
 
-/* TURNERINGSTRÄD */
 .bracket {
   display: flex;
   flex-direction: row;
@@ -43,7 +36,6 @@ body {
   flex: 1;
 }
 
-/* MATCHKORT */
 .match {
   background: #fffdf9;
   border: 2px solid #e8b17a;
@@ -63,7 +55,6 @@ body {
   padding-bottom: 0.5rem;
 }
 
-/* SPELAR-KORT */
 .player {
   background: #fff3e8;
   border: 1px solid #f0c7a1;
@@ -83,14 +74,12 @@ body {
   margin-bottom: 0.2rem;
 }
 
-/* DELARE */
 .match hr {
   border: none;
   border-top: 1px dashed #d7a479;
   margin: 0.8rem 0;
 }
 
-/* KNAPPAR */
 .controls {
   margin-top: 1rem;
   display: flex;
