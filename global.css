@@ -4,17 +4,18 @@
 
 body {
   margin: 0;
-  font-family: Georgia, 'Times New Roman', serif;
-  background: linear-gradient(180deg, #fff8f2 0%, #ffe9d6 100%);
-  color: #2b1b12;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(180deg, #120b04 0%, #1e1208 100%);
+  color: #f0d080;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
 
+/* Header */
 header {
-  background-color: #fffdf9;
-  border-bottom: 2px solid #e8b17a;
+  background-color: #1a1008;
+  border-bottom: 1px solid #c9a84c;
   padding: 16px;
 }
 
@@ -22,8 +23,9 @@ header h1 {
   margin: 0;
   text-align: center;
   font-size: 28px;
-  color: #8b2e1f;
-  letter-spacing: 1px;
+  color: #c9a84c;
+  font-family: Georgia, serif;
+  letter-spacing: 2px;
 }
 
 #global-nav {
@@ -44,9 +46,9 @@ header h1 {
 
 #global-nav a {
   text-decoration: none;
-  color: #2b1b12;
-  background-color: #fffdf9;
-  border: 1px solid #e8b17a;
+  color: #c9a84c;
+  background-color: #1a1008;
+  border: 1px solid #3a2a10;
   border-radius: 8px;
   padding: 8px 14px;
   font-size: 14px;
@@ -55,13 +57,14 @@ header h1 {
 }
 
 #global-nav a:hover {
-  background-color: #f3d1b0;
+  background-color: #2a1a08;
+  border-color: #c9a84c;
 }
 
 #global-nav a.active {
-  background-color: #c94f3d;
-  color: #fff;
-  border-color: #c94f3d;
+  background-color: #c9a84c;
+  color: #1a1008;
+  border-color: #c9a84c;
 }
 
 main {
@@ -72,38 +75,41 @@ main {
   align-self: start;
 }
 
+
 #assignments-card {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
   align-items: start;
-  align-content: start;  
+  align-content: start;
 }
 
 .assignment-card {
-  background-color: #fffdf9;
-  border: 1px solid #e8b17a;
+  background-color: #1a1008;
+  border: 1px solid #c9a84c;
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0 4px 12px rgba(120, 60, 20, 0.1);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
-  height: fit-content;  
+  height: fit-content;
 }
 
 .assignment-card:hover {
   transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(120, 60, 20, 0.15);
+  box-shadow: 0 6px 18px rgba(201, 168, 76, 0.2);
 }
 
 .assignment-card h3 {
   margin: 0 0 8px 0;
   font-size: 18px;
-  color: #8b2e1f;
+  color: #c9a84c;
+  font-family: Georgia, serif;
+  letter-spacing: 1px;
 }
 
 .assignment-card p {
   margin: 0 0 14px 0;
-  color: #6b4c3b;
+  color: #a08050;
   font-family: Arial, sans-serif;
   font-size: 14px;
 }
@@ -111,8 +117,9 @@ main {
 .card-link {
   display: inline-block;
   text-decoration: none;
-  background-color: #c94f3d;
-  color: #fff;
+  background: transparent;
+  color: #c9a84c;
+  border: 1px solid #c9a84c;
   border-radius: 8px;
   padding: 8px 14px;
   font-size: 14px;
@@ -121,17 +128,18 @@ main {
 }
 
 .card-link:hover {
-  background-color: #a63d2f;
+  background-color: #c9a84c;
+  color: #1a1008;
   transform: translateY(-1px);
 }
 
 footer {
-  background-color: #fffdf9;
-  border-top: 2px solid #e8b17a;
+  background-color: #1a1008;
+  border-top: 1px solid #c9a84c;
   text-align: center;
   padding: 14px;
   font-size: 14px;
-  color: #6b4c3b;
+  color: #a08050;
   font-family: Arial, sans-serif;
 }
 
