@@ -1,0 +1,58 @@
+ [
+  {
+    "id": "k-001",
+    "name": "Britta Brynt",
+    "image": "images/britta.jpg",
+    "skillLevel": 8,
+    "catchphrase": "Medium rare är inte en förfrågan, det är en livsstil."
+  },
+  {
+    "id": "k-002",
+    "name": "Lars Lansen",
+    "image": "images/lars.jpg",
+    "skillLevel": 7,
+    "catchphrase": "Regler finns till för att brytas — precis som ägg."
+  },
+  {
+    "id": "k-003",
+    "name": "Kimchi-Kim",
+    "image": "images/kim.jpg",
+    "skillLevel": 7,
+    "catchphrase": "Ge det tid, så blir det gott."
+  },
+  {
+    "id": "k-004",
+    "name": "Patrik Petit-Four",
+    "image": "images/patrik.jpg",
+    "skillLevel": 9,
+    "catchphrase": null
+  },
+  {
+    "id": "k-005",
+    "name": "Frida Flambé",
+    "image": "images/frida.jpg",
+    "skillLevel": 7,
+    "catchphrase": "Om det inte brinner, är det inte klart!"
+  },
+  {
+    "id": "k-006",
+    "name": "Nansen Nudel",
+    "image": "images/nansen.jpg",
+    "skillLevel": 8,
+    "catchphrase": "Snabbare än en mikrovågsugn!"
+  },
+  {
+    "id": "k-007",
+    "name": "Berit Bouillon",
+    "image": "images/berit.jpg",
+    "skillLevel": 5,
+    "catchphrase": "Ta en skål till, du ser blek ut."
+  },
+  {
+    "id": "k-008",
+    "name": "X-kansen",
+    "image": "images/xkansen.jpg",
+    "skillLevel": 4,
+    "catchphrase": "Vänta bara."
+  }
+]

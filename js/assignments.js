@@ -16,5 +16,12 @@ export const assignments = [
     title: "Uppgift 2: Vietnamesiskt kök",
     link: "assignment2/index.html",
     description: "Produktsida med kundvagn"
+  },
+  {
+    id: "assignment3",
+    title: "Uppgift 3: Cookduellen",
+    link: "assignment3/index.html",
+    description: "Turneringsgenerator med slutspelsträd"
   }
+  
 ];

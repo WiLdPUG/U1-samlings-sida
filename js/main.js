@@ -7,29 +7,23 @@ function renderCards() {
 
   container.textContent = "";
 
+  container.innerHTML = "";
+
+  let html = "";
+
   for (const element of assignments) {
-    if (element.id !== "home") {
-      const article = document.createElement("article");
-      article.classList.add("assignment-card");
+    if (element.id === "home") continue;
 
-      const h3 = document.createElement("h3");
-      h3.textContent = element.title;
-
-      const p = document.createElement("p");
-      p.textContent = element.description; 
-
-      const a = document.createElement("a");
-      a.href = element.link;
-      a.textContent = "Öppna";
-      a.classList.add("card-link");
-
-      article.appendChild(h3);
-      article.appendChild(p);
-      article.appendChild(a);
-
-      container.appendChild(article);
-    }
+    html += `
+      <article class="assignment-card">
+        <h3>${element.title}</h3>
+        <p>${element.description}</p>
+        <a class="card-link" href="${element.link}">Öppna</a>
+      </article>
+    `;
   }
+
+  container.innerHTML = html;
 }
 
 function backHome(path) {
@@ -45,7 +39,7 @@ function backHome(path) {
   back.classList.add("card-link");
 
   
-  main.appendChild(back);
+  main.prepend(back);
 }
 
 const page = document.body.dataset.page || "home";

@@ -7,11 +7,6 @@ const cartEl = document.getElementById("kundvagn-innehåll");
 const totalEl = document.getElementById("total-summa");
 
 
-totalEl.addEventListener("click", function () {
-  clearCart();
-  renderCart();
-});
-
 start();
 
 function start() {
