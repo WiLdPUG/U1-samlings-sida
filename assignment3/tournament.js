@@ -79,7 +79,6 @@ function renderFinal() {
 }
 
 function showWinner() {
-  const box = document.getElementById("final");
   const winnerText = document.createElement("p");
   winnerText.classList.add("winner-text");
   winnerText.textContent = `Vinnare: ${finalMatch.winner.name}`;
