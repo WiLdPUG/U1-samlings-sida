@@ -13,7 +13,7 @@ async function start() {
   }
 
 
-  const g = new googleLocation(window.location.search);
+  const g = new URLSearchParams(window.location.search);
   const id = Number(g.get("id"));
 
 
