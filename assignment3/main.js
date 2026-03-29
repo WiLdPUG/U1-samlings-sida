@@ -12,5 +12,4 @@ async function start() {
     await loadContestants();
     startTournament(contestants);
 }
-
 start();

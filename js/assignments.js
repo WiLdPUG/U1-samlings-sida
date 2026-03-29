@@ -22,6 +22,12 @@ export const assignments = [
     title: "Uppgift 3: Cookduellen",
     link: "assignment3/index.html",
     description: "Turneringsgenerator med slutspelsträd"
+  },
+  {
+    id: "assignment4",
+    title: "Uppgift 4: Spökhusbyrån",
+    link: "assignment4/index.html",
+    description: "Hemsökt husuthyrning med bokningssystem"
   }
-  
+
 ];

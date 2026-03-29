@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spökhusbyrån AB</title>
+  <link rel="stylesheet" href="css/assignment4.css">
+  <script type="module" src="js/index.js"></script>
+</head>
+<body data-page="index">
+  <header>
+    <h1>Spökhusbyrån AB</h1>
+    <p class="tagline">Vi hyr ut hemsökta hus till modiga semesterfirare</p>
+  </header>
+
+  <main>
+    <div id="error-message" class="error hidden"></div>
+
+    <aside id="filters">
+      <h2>Filtrera hus</h2>
+
+      <div class="filter-item">
+        <label for="max-price">Maxpris per natt (kr)</label>
+        <input type="number" id="max-price" placeholder="t.ex. 2000" min="0">
+      </div>
+
+      <div class="filter-item">
+        <label for="scare-level">Lägsta skräcknivå: <span id="scare-label">Alla</span></label>
+        <input type="range" id="scare-level" min="0" max="5" value="0">
+      </div>
+
+      <div class="filter-item">
+        <label for="ghost-type">Typ av spöke</label>
+        <select id="ghost-type">
+          <option value="">Alla typer</option>
+        </select>
+      </div>
+
+      <div class="filter-item">
+        <label>
+          <input type="checkbox" id="wifi-only">
+          Hus med WiFi
+        </label>
+      </div>
+    </aside>
+
+    <section id="houses"></section>
+  </main>
+
+  <footer>
+    <p>Kevin Truong</p>
+    <p>Kurs: Webbteknik 3 (1ME323)</p>
+    <p>GitHub: WiLdPUG</p>
+  </footer>
+</body>
+</html>
