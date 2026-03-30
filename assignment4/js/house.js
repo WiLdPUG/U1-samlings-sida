@@ -1,4 +1,4 @@
-import { fetchHouses, getHouseById, scareLevelText, showError } from "./utils.js";
+import { fetchHouses, findHouse, scareLevelText, showError } from "./utils.js";
 import { Booking } from "./booking.js";
 
 let booking = null;
@@ -13,11 +13,11 @@ async function start() {
   }
 
 
-  const g = new URLSearchParams(window.location.search);
-  const id = Number(g.get("id"));
+  const locationInfo = new URLSearchParams(window.location.search);
+  const id = Number(locationInfo.get("id"));
 
 
-  const house = getHouseById(data, id);
+  const house = findHouse(data, id);
 
 
   if (!house) {
@@ -36,10 +36,10 @@ async function start() {
 
 
 function showHouse(house) {
-  const box = document.getElementById("detail");
+  const boxAdress = document.getElementById("detail");
 
 
-  box.innerHTML = `
+  boxAdress.innerHTML = `
     <img src="img/${house.image}" alt="${house.name}">
     <div class="info">
       <h2>${house.name}</h2>
@@ -54,16 +54,16 @@ function showHouse(house) {
     </div>
   `;
 }
-
+//
 function showMap(house) {
   const map = L.map("map").setView([house.coordinates.lat, house.coordinates.lng], 10);
 
-
+//Visa kartan från streetmap genom openstreetmap
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution: "&copy; OpenStreetMap contributors"
   }).addTo(map);
 
-
+// Pinpointa vart på kartan huset är med en pil
   L.marker([house.coordinates.lat, house.coordinates.lng])
     .addTo(map)
     .bindPopup(house.name)
@@ -73,18 +73,18 @@ function showMap(house) {
   fetchAddress(house.coordinates.lat, house.coordinates.lng);
 }
 
-
+// Hämtar koordinater från huset och skickar det till Nominatim för att få en adress
 async function fetchAddress(lat, lng) {
   try {
     const response = await fetch(
       `https://nominatim.openstreetmap.org/reverse?lat=${lat}&lon=${lng}&format=json`
     );
     const data = await response.json();
-    const box = document.getElementById("address");
-    box.textContent = data.display_name ?? "";
+    const boxAdress = document.getElementById("address");
+    boxAdress.textContent = data.display_name ?? "";
   } catch (error) {
-    const box = document.getElementById("address");
-    box.textContent = "Kunde inte hämta platsinformation.";
+    const boxAdress = document.getElementById("address");
+    boxAdress.textContent = "Kunde inte hämta platsinformation.";
   }
 }
 

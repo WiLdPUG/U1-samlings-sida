@@ -59,23 +59,27 @@ export class Booking {
 
     if (this.#addons.length > 0) {
       const names = [];
-      for (const addon of this.#addons) {
-        const label = addon.closest("label");
-        names.push(label.textContent.trim());
+
+      for (const extra of this.#addons) {
+        if (extra.value === "breakfast") names.push("Frukost");
+
+        if (extra.value === "tour") names.push("Spökvandring");
+
+        if (extra.value === "seance") names.push("Nattlig seans");
       }
       addonText = names.join(", ");
     }
 
     const box = document.createElement("div");
     box.innerHTML = `
-      <h3>Bokning bekräftad!</h3>
-      <p>Hus: ${this.#house.name}</p>
-      <p>Incheckning: ${this.#checkin}</p>
-      <p>Antal dagar: ${this.#days}</p>
-      <p>Tillägg: ${addonText}</p>
-      <p>Totalt pris: ${total} kr</p>
-      <p>Tack för din bokning!</p>
-    `;
+    <h3>Bokning bekräftad!</h3>
+    <p>Hus: ${this.#house.name}</p>
+    <p>Incheckning: ${this.#checkin}</p>
+    <p>Antal dagar: ${this.#days}</p>
+    <p>Tillägg: ${addonText}</p>
+    <p>Totalt pris: ${total} kr</p>
+    <p>Tack för din bokning!</p>
+  `;
 
     return box;
   }

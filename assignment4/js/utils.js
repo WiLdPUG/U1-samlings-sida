@@ -22,7 +22,7 @@ export function getAllGhostTypes(houses) {
     return types;
 }
 
-export function getHouseById(houses, id) {
+export function findHouse(houses, id) {
     return houses.find(house => house.id === id);
 }
 
@@ -40,13 +40,6 @@ export async function fetchHouses() {
 export function showError(elementId, message) {
     const el = document.getElementById(elementId);
     if (!el) return;
-    el.textContent = message;
+    el.innerHTML = message;
     el.classList.remove("hidden");
-}
-
-
-export function hideError(elementId) {
-    const el = document.getElementById(elementId);
-    if (!el) return;
-    el.classList.add("hidden");
 }
