@@ -7,7 +7,7 @@
     "description": "En charmig röd villa där väggarna skriker varje midnatt. Förra ägaren försvann spårlöst 1987 — men hans röst hörs fortfarande från källaren.",
     "pricePerNight": 800,
     "scareLevel": 3,
-    "ghostTypes": ["poltergeist", "skuggvarelse"],
+    "ghostTypes": ["Poltergeist", "Skuggvarelse"],
     "hasWifi": true,
     "image": "villa-skrikeborg.jpg"
   },
@@ -19,7 +19,7 @@
     "description": "Ett medeltida slott med 47 rum. Bara 43 av dem syns på ritningen. Gästerna som hittar de andra fyra brukar inte berätta om dem.",
     "pricePerNight": 2500,
     "scareLevel": 5,
-    "ghostTypes": ["kedjerassel", "vit dam", "huvudlös riddare"],
+    "ghostTypes": ["Kedjerassel", "Vit dam", "Huvudlös riddare"],
     "hasWifi": false,
     "image": "slottet-ingen-atervando.jpg"
   },
@@ -31,7 +31,7 @@
     "description": "En avlägsen fyr som blinkar i morsekod om nätterna. Ingen har lyckats tyda meddelandet. Ingen som försökt har velat stanna.",
     "pricePerNight": 1100,
     "scareLevel": 4,
-    "ghostTypes": ["sjöspöke", "dimvandare"],
+    "ghostTypes": ["Sjöspöke", "Dimvandare"],
     "hasWifi": false,
     "image": "fyren-skrackudden.jpg"
   },
@@ -43,7 +43,7 @@
     "description": "En mysig fjällstuga som verkar ha fler rum ju längre man bor där. Receptionen rekommenderar att man inte pratar med tvillingarna i korridoren.",
     "pricePerNight": 1400,
     "scareLevel": 4,
-    "ghostTypes": ["tvillingspöken", "skuggvarelse"],
+    "ghostTypes": ["Tvillingspöke", "Skuggvarelse"],
     "hasWifi": true,
     "image": "overlook-stugan.jpg"
   },
@@ -55,7 +55,7 @@
     "description": "Ett pittoreskt torp från 1800-talet som gråter salt vatten ur väggarna vid fullmåne. Havsutsikt ingår, oavsett väderstreck.",
     "pricePerNight": 650,
     "scareLevel": 2,
-    "ghostTypes": ["vit dam"],
+    "ghostTypes": ["Vit dam"],
     "hasWifi": true,
     "image": "gratande-torpet.jpg"
   },
@@ -67,7 +67,7 @@
     "description": "En ombyggd textilfabrik där maskinerna startar av sig själva klockan 03:00. Produktionen verkar gå utmärkt — men ingen vet vad som tillverkas.",
     "pricePerNight": 900,
     "scareLevel": 3,
-    "ghostTypes": ["industrispöke", "poltergeist"],
+    "ghostTypes": ["Industrispöke", "Poltergeist"],
     "hasWifi": true,
     "image": "spokfabriken.jpg"
   },
@@ -79,7 +79,7 @@
     "description": "Stugan syns bara i dimma, vilket är praktiskt eftersom det alltid är dimmigt här. GPS fungerar inte — men något annat verkar veta exakt var du är.",
     "pricePerNight": 500,
     "scareLevel": 4,
-    "ghostTypes": ["dimvandare", "vittra"],
+    "ghostTypes": ["Dimvandare", "Vittra"],
     "hasWifi": false,
     "image": "dimhults-fjallstuga.jpg"
   },
@@ -91,7 +91,7 @@
     "description": "Ett klassiskt karpatiskt palats med en värd som bara syns på kvällen. Frukosten serveras sent, och av någon anledning finns det aldrig vitlök på menyn.",
     "pricePerNight": 1800,
     "scareLevel": 5,
-    "ghostTypes": ["vampyr", "kedjerassel", "vit dam"],
+    "ghostTypes": ["Vampyr", "Kedjerassel", "Vit dam"],
     "hasWifi": false,
     "image": "palatset-von-morker.jpg"
   },
@@ -103,7 +103,7 @@
     "description": "En lägenhet på Stockholms smalaste gränd. Grannarna klagar aldrig på oljud — de har inte klagat på något sedan 1654.",
     "pricePerNight": 1300,
     "scareLevel": 2,
-    "ghostTypes": ["skuggvarelse"],
+    "ghostTypes": ["Skuggvarelse"],
     "hasWifi": true,
     "image": "gamla-stansen.jpg"
   },
@@ -115,7 +115,7 @@
     "description": "En forskningsstation vid foten av ett berg som inte finns på någon karta. Väggarna är täckta av inskriptioner på ett språk som ingen känner igen — men alla förstår. Förra expeditionen lämnade kvar sina saker. Och något annat.",
     "pricePerNight": 3000,
     "scareLevel": 5,
-    "ghostTypes": ["kosmisk entitet", "dimvandare", "det onämnbara"],
+    "ghostTypes": ["Kosmisk entitet", "Dimvandare", "Det onämnbara"],
     "hasWifi": false,
     "image": "vansinnestoppen.jpg"
   },
@@ -127,7 +127,7 @@
     "description": "En före detta prästgård där böckerna i biblioteket byter plats varje natt. Bibeln hamnar alltid upp och ner. Katten som bor här har inte åldrats sedan 1923.",
     "pricePerNight": 750,
     "scareLevel": 2,
-    "ghostTypes": ["poltergeist", "odöd katt"],
+    "ghostTypes": ["Poltergeist", "Odöd katt"],
     "hasWifi": true,
     "image": "prastgarden-krange.jpg"
   },
@@ -139,7 +139,7 @@
     "description": "Ett ombyggt strandhus där varje gäst vaknar med sand i sängen — oavsett årstid. Havet hörs alltid, även med stängda fönster. Speciellt märkligt med tanke på att havet är tre kilometer bort.",
     "pricePerNight": 950,
     "scareLevel": 1,
-    "ghostTypes": ["sjöspöke"],
+    "ghostTypes": ["Sjöspöke"],
     "hasWifi": true,
     "image": "hotellet-backakra.jpg"
   }
